@@ -1,7 +1,7 @@
-.danger{
-    color: #a84e4e;
-    font-weight: bold;
+.name-main {
+    font-weight: 900;
 }
+
 .fa {
     padding: 15px;
     font-size: 30px;
@@ -23,26 +23,27 @@
     background: #55ACEE;
     color: white;
 }
+
 .fa-instagram {
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: white;
 }
-.fa-wikipedia-w{
+
+.fa-wikipedia-w {
     background: #f5f1f1;
     color: #0c0c0c;
 }
-.fa-download {
 
+.fa-download {
     background: #406813;
     color: white;
 }
 
-.dow{
-    padding:2px;
+.dow {
+    padding: 2px;
     color: green;
 }
-
 
 .avatar {
     vertical-align: middle;
@@ -52,22 +53,30 @@
     overflow: hidden;
     text-align: center;
     box-sizing: content-box;
-
-
 }
-.description-intro{
+
+.description-intro {
     font-size: 1.2em;
     letter-spacing: 1px;
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1200px){
-    .avatar{
+.experience-span {
+    color: #a34f4f;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1200px) {
+    .avatar {
         width: 10.5em;
     }
 }
-@media only screen and (max-width: 995px){
-    .avatar{
+
+@media only screen and (max-width: 995px) {
+    .avatar {
         width: 7.5em;
     }
 }
